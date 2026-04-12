@@ -11,6 +11,15 @@
 1. 先把作品门面整理出来
 2. 再把作品以更合适的方式发到 X 上
 
+## 一条最短路径
+
+如果你只是想最快开始，用这一条：
+
+1. 先打开 [项目门面生成器](./项目门面生成器/README.md)
+2. 整理 README、安装方式和门面入口
+3. 再打开 [秋知X推文发帖生成器](./秋知X推文发帖生成器/README.md)
+4. 生成主帖、第一条带链接跟帖和配图版文案
+
 ## 这仓库是什么
 
 这是一个成熟版、主题化的工作流仓库。  
@@ -64,6 +73,24 @@
 
 如果你已经有完整 README 和截图，也可以直接从第二步开始。
 
+## 安装
+
+如果你的代理支持 `skills add`，可以直接装这两个 skill：
+
+### 项目门面生成器
+
+```bash
+npx skills add AdgaiWalker/creator-publish-workflow --skill project-front-generator
+```
+
+### 秋知 X 推文发帖生成器
+
+```bash
+npx skills add AdgaiWalker/creator-publish-workflow --skill qiuzhi-x-post-generator
+```
+
+如果你不确定安装方式，也可以直接把对应 skill 的 `SKILL.md` 或目录交给 AI。
+
 ## 这两个 skill 的关系
 
 它们不是两个零散工具，而是同一条链上的前后两步：
@@ -74,6 +101,11 @@
 连起来就是：
 
 `做出来 -> 整理出来 -> 发出去`
+
+你也可以理解成：
+
+- 第一步：让作品能见人
+- 第二步：让作品被看见
 
 ## 方法总纲
 

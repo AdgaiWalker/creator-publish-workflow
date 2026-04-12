@@ -48,11 +48,25 @@
 
 ## 快速入口
 
-- 仓库目录：`Skills-Walker / 创作 / 秋知X推文发帖生成器`
+- 仓库目录：`creator-publish-workflow / 秋知X推文发帖生成器`
 - 执行规则：[skill.md](./skill.md)
 - 适合先看 README，再让 AI 按 `skill.md` 开始工作
 
+## 上一步
+
+如果你的作品还没有 README、安装方式或对外介绍，先用：
+
+- [项目门面生成器](../项目门面生成器/README.md)
+
+先把作品整理到“能见人、能介绍、能移交”的状态，再回来写 X 主帖和跟帖，会更稳。
+
 ## 怎么启用
+
+### 方式 0：命令安装
+
+```bash
+npx skills add AdgaiWalker/creator-publish-workflow --skill qiuzhi-x-post-generator
+```
 
 ### 方式 1：直接把 skill 交给 AI
 
@@ -72,6 +86,12 @@
 1. 先读这份 README
 2. 再把项目 README、截图、仓库链接交给 AI
 3. 最后明确一句：按秋知风格写主帖和跟帖
+
+如果你的代理支持显式 skill 调用，也可以直接说：
+
+```text
+用 $qiuzhi-x-post-generator 帮我写这条 X 主帖和跟帖。
+```
 
 ## 最短怎么用
 
@@ -161,7 +181,7 @@
 
 ```text
 GitHub：
-https://github.com/AdgaiWalker/Skills-Walker/tree/main/%E5%88%9B%E4%BD%9C/%E9%A1%B9%E7%9B%AE%E9%97%A8%E9%9D%A2%E7%94%9F%E6%88%90%E5%99%A8
+https://github.com/AdgaiWalker/creator-publish-workflow/tree/main/%E9%A1%B9%E7%9B%AE%E9%97%A8%E9%9D%A2%E7%94%9F%E6%88%90%E5%99%A8
 ```
 
 ## 设计原则

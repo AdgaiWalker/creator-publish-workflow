@@ -59,7 +59,7 @@
 ### 方式 1：命令安装
 
 ```bash
-npx skills add AdgaiWalker/Skills-Walker --skill project-front-generator
+npx skills add AdgaiWalker/creator-publish-workflow --skill project-front-generator
 ```
 
 ### 方式 2：让 AI 帮你安装
@@ -68,13 +68,13 @@ npx skills add AdgaiWalker/Skills-Walker --skill project-front-generator
 
 ```text
 帮我安装这个 skill：
-https://github.com/AdgaiWalker/Skills-Walker
+https://github.com/AdgaiWalker/creator-publish-workflow
 
 skill 名称：project-front-generator
 
 请帮我用合适的方式完成安装。
 如果支持命令安装，优先使用：
-npx skills add AdgaiWalker/Skills-Walker --skill project-front-generator
+npx skills add AdgaiWalker/creator-publish-workflow --skill project-front-generator
 
 安装完成后，告诉我最短怎么调用它。
 ```
@@ -240,11 +240,12 @@ README 生成完成后，它不会立刻停下，而会继续检查：
 
 ### 案例 1：技能集合仓库
 
-`Skills-Walker` 就是一个典型例子。它不是“一仓库一个项目”，而是：
+`creator-publish-workflow` 本身也是一个典型例子。它不是单个 skill 仓库，而是一条由多个 skill 组成的工作流：
 
-- 仓库根 README：作为整个技能集合的入口页
-- `创作/项目门面生成器/README.md`：作为单个 skill 的介绍页
-- `创作/项目门面生成器/skill.md`：作为这个 skill 的执行规则页
+- 仓库根 README：作为整个工作流的入口页
+- `项目门面生成器/README.md`：作为单个 skill 的介绍页
+- `项目门面生成器/skill.md`：作为这个 skill 的执行规则页
+- `秋知X推文发帖生成器/README.md`：作为下一步传播 skill 的介绍页
 
 处理这种仓库时，这个 skill 会先把层级分清，再分别组织内容，而不是把整个仓库误写成单个项目。
 
@@ -373,3 +374,11 @@ README 不是终点，门面收尾才算完成
 如果你想继续深入使用这个 skill，或者研究这套 README 方法论和工作框架，直接看下面这份总纲：
 
 - [README框架总纲](../docs/README框架总纲.md)
+
+## 下一步
+
+如果门面已经整理好，下一步可以继续用：
+
+- [秋知X推文发帖生成器](../秋知X推文发帖生成器/README.md)
+
+它负责把已经整理好的作品，进一步变成适合发到 X 的主帖、跟帖和配图文案。
