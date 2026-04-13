@@ -109,9 +109,10 @@ npx skills add AdgaiWalker/creator-publish-workflow --skill qiuzhi-x-post-genera
 
 ## 方法总纲
 
-如果你想继续深入研究这套工作流背后的 README 方法论，可以看：
+如果你想继续深入研究这套工作流背后的方法，可以看这两份：
 
 - [README框架总纲](./docs/README框架总纲.md)
+- [共用底稿字段表](./docs/共用底稿字段表.md)
 
 ## 和 Skills-Walker 的关系
 
